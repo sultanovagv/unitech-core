@@ -13,8 +13,8 @@ docker-compose up
 
 **Upgrades:**
 
-I have currently used JUnit tests for the service layer. It is important to extend the test coverage to include integration tests and controllers should also be tested.
+I have currently used JUnit tests for the service layer. Integration tests should also be written for controller and service layers.
 
-I suggest adding a gateway to the system and creating multiple instances of it to efficiently distribute the load across the application.
+I would add a gateway to the system and create multiple instances of it (geographically, etc.) to reduce the load on the application.
 
-Additionally, the `ms-user` module should be upgraded to implement JWT token authentication.**
+Additionally, JWT token authentication should be added to the `ms-user` module**
