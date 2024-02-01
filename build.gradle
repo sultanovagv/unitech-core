@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group = 'az.unitech'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+
+}
+
+sourceSets {
+    main {
+        resources {
+            exclude '**/config/**'
+            exclude '**/static/**'
+        }
+    }
+}

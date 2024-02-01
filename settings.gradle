@@ -1,0 +1,5 @@
+rootProject.name = 'uniTech-core'
+include 'ms-user'
+include 'ms-account'
+include 'ms-currency-rate'
+
